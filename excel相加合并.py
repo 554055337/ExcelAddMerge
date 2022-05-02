@@ -6,7 +6,7 @@ import traceback
 import tkinter.messagebox
 from ParseError import ParseError
 
-list1 = []
+list1 =  []
 try:
     default_dir = r"D:\\"
     mergeFiles = filedialog.askopenfilenames(title=u'选择合并文件', initialdir=(os.path.expanduser(default_dir)))
